@@ -1,9 +1,9 @@
 import { Channel, connect } from "amqplib";
 import { config } from "dotenv";
 import { Server } from "socket.io";
-import CandleController from "src/controllers/CandleController";
+import CandleController from "../controllers/CandleController";
 import * as http from "http";
-import { Candle } from "src/models/CandleModel";
+import { Candle } from "../models/CandleModel";
 
 config();
 

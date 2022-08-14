@@ -1,4 +1,4 @@
-import CandleController from "src/controllers/CandleController";
+import CandleController from "../controllers/CandleController";
 import { Request, Response, Router } from "express";
 
 export const candleRouter = Router();
